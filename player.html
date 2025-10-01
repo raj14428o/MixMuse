@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MixMuse - Your Favourite Music is here</title>
+    <link rel="stylesheet" href="player.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="log.png" alt="MixMuse" />MixMuse</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <!-- Repeatable song items -->
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp0">
+                            05:34 <i id="0" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="2" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp1">
+                            05:34 <i id="1" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="3" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp2">
+                            05:34 <i id="2" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="4" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp3">
+                            05:34 <i id="3" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="5" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp4">
+                            05:34 <i id="4" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="6" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp5">
+                            05:34 <i id="5" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="7" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp6">
+                            05:34 <i id="6" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="8" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp7">
+                            05:34 <i id="7" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="9" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp8">
+                            05:34 <i id="8" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="10" />
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay">
+                        <span class="timestamp" id="timestamp9">
+                            05:34 <i id="9" class="far SongItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" />
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i id="masterPlay" class="far fa-3x fa-play-circle"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" id="gif" style="opacity: 0;" />
+            <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="player.js"></script>
+</body>
+</html>
+
