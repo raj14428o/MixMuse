@@ -1,4 +1,4 @@
-# 🎧 MixMuse – No Copyright Music Player
+# 🎧 MixMuse – Music Player
 
 **MixMuse** is a minimalist music player built for creators and developers who need royalty-free audio for their projects. It streams tracks from the NCS (NoCopyrightSounds) catalog, offering a distraction-free interface and smooth playback.
 
